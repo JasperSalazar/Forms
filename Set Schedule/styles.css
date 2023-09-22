@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6464;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 3px solid #f24b4b;
+}
+
+.sidebar h2 i ul li a.active {
+    background-color: #fcff60;
+}
+
+.sidebar h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.usericon {
+    text-align: center;
+    height: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 40px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px 100px;
+}
+
+
+.title {
+    margin-left:400px;
+}
+
+
+.schedule-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/* Style for the label */
+
+.flex1 {
+    margin-left: 70px;
+}
+
+.LTaskName {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-top: 20px;
+}
+
+.LDueDate {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-top: 20px;
+}
+
+.LDueTime {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-top: 20px;
+}
+
+.LDescription {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-top: 20px;
+}
+
+
+.LDate {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-top: 20px;
+}
+
+
+/* Style for the input */
+.InTaskName {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:25px;
+}
+
+.InDueDate{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:25px;
+}
+
+.InDueTime{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:25px;
+}
+
+.InDescription{
+    width: 500px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:90px;
+}
+
+.separator {
+    border-color: #ff6262; 
+    border-width: 1px; 
+    margin: 20px 0; 
+}
+
+
+.InDate{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+
+.flex2 {
+    margin-left: 380px;
+
+}
+
+.response {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    margin-right: 0 auto;
+    justify-content: flex-end;
+}
+
+.save {
+    height:40px;
+    width: 100px;
+}
+
+.cancel {
+    height:40px;
+    width: 100px;
+    margin-left: 20px;
+}

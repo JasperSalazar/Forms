@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>USER FORM</title>
+</head>
+<body>
+
+    
+    <div class="sidebar">
+        <h2><i class='far fa-user-circle' style='font-size:98px;color:rgb(255, 255, 255);'></i><br><br>USER</h2>
+        <ul>
+            <li><a href="./Home.html"><i class='fas fa-desktop'></i> DASHBOARD</a></li>
+            <li><a href="./ManagePigs.html"><i class='fas fa-folder-open'></i> MANAGE PIGS</a></li>
+            <li><a href="./set-schedule.html"><i class='fas fa-calendar-alt'></i> SET SCHEDULE</a></li>
+            <li><a href="./DataEntry.html"><i class='fas fa-folder-plus'></i> DATA ENTRY</a></li>
+        </ul>
+
+        <button id="myButton">Logout</button>
+
+    </div>  
+
+    <div class = "title">
+        <h2>User Form</h2>
+    </div>
+    <div class="user-container">
+        <form>
+            <label for="firstname" class = "LFirstName">Firstname:</label>
+            <input type="text" class = "InFirstName" id="firstname" name="firstname"><br><br>
+
+            <label for="lastname" class= "LLastName">Lastname:</label>
+            <input type="text" class= "InLastName" id="lastname" name="lastname"><br><br>
+
+            <label for="role" class= "LRole">Role:</label>
+            <input type="text" class= "InRole" id="role" name="role"><br><br>
+
+            <label for="username" class= "LUserName">Username:</label>
+            <input type="text" class= "InUserName" id="username" name="username"><br><br>
+
+            <label for="password" class= "LPassword">Password:</label>
+            <input type="password" class= "InPassword" id="password" name="password"><br><br>
+
+            <label for="confpass" class= "LConfPass">Password:</label>
+            <input type="password" class= "InConfPass" id="confpass" name="confpass"><br><br>
+
+            
+            <hr class="separator">
+
+            <div class = "Submission">
+
+                <label for="date" class= "LDate">Date:</label>
+                <input type="text" class= "Indate" id="date" name="date"><br><br>
+            </div>
+
+            <div class = "response">
+                <input type="submit" class = "save" value="Save">
+                <input type="button" class = "cancel" value="cancel">
+            </div>
+
+        </form>
+    </div>
+    
+
+</body>
+</html>

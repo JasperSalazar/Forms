@@ -1,0 +1,268 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6464;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 3px solid #f24b4b;
+}
+
+.sidebar h2 i ul li a.active {
+    background-color: #fcff60;
+}
+
+.sidebar h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.usericon {
+    text-align: center;
+    height: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 40px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px 100px;
+}
+
+
+.title {
+    margin-left:400px;
+}
+
+
+.registration-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.flex1 {
+    display: flex;
+    margin-left: 70px;
+}
+
+
+.LPigID {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LDam {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.flex2 {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.LDOB {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LSire {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+.flex3 {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.LClass {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LSex {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LCount{
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LWeight {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LRemarks {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.flex4 {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+
+.LVerifBy {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+/* Style for the input */
+.InPigID {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InDam{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+.InDOB{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InSire{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InClass{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InSex{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InCount{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InWeight{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InRemarks{
+    width: 500px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 90px;
+}
+
+.InVerifBy{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.separator {
+    border-color: #ff6262; 
+    border-width: 1px; 
+    margin: 20px 0; 
+}
+
+.response {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    margin-right: 0 auto;
+    justify-content: flex-end;
+}
+
+.save {
+    height:40px;
+    width: 100px;
+}
+
+.cancel {
+    height:40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,179 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6464;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 3px solid #f24b4b;
+}
+
+.sidebar h2 i ul li a.active {
+    background-color: #fcff60;
+}
+
+.sidebar h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.usericon {
+    text-align: center;
+    height: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 40px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px 100px;
+}
+
+
+.title {
+    margin-left:400px;
+}
+
+
+.user-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/* Style for the label */
+.LFirstName {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LLastName {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LRole {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LUserName {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LPassword {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LConfPass {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+.LDate {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+/* Style for the input */
+.InFirstName {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InLastName{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InRole{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InUserName {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InPassword{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InConfPass{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.separator {
+    border-color: #ff6262; 
+    border-width: 1px; 
+    margin: 20px 0; 
+}
+
+.Indate{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+
+
+.response {
+    margin-top: 40px;
+}

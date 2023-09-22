@@ -1,0 +1,482 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6464;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-right: 3px solid #f24b4b;
+}
+
+.sidebar h2 i ul li a.active {
+    background-color: #fcff60;
+}
+
+.sidebar h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.usericon {
+    text-align: center;
+    height: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 40px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: white;
+    padding: 20px 100px;
+}
+
+
+.title {
+    margin-left:400px;
+}
+
+
+.sowPer-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.flex1 {
+    display: flex;
+    margin-left: 70px;
+}
+
+
+.LSowNo {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LDam {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-left: 100px;
+}
+
+.LParity {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-left: 100px;
+}
+
+.flex2 {
+    margin-top: 40px;
+    display: flex;
+}
+.LDOB {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LSire {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.flex3 {
+    display: flex;
+    margin-top: 40px;
+}
+.LClass {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LFirst {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LBred {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LSecond {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LDue {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LThird {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LFarr {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+.LAlive {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LMK {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-left: 20px;
+}
+
+.LSB {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-left: 20px;
+}
+
+.LMFFD {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+    margin-left: 20px;
+}
+
+.LTotalLS {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LAveLS {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+.LDateW {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LTotalKW {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LNoW {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+
+.LTotalW {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+
+.LAveW {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add some space between label and input */
+}
+/* Style for the input */
+.InSowNo {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InDam{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InParity{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.InDOB{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.InSire{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InClass{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.separator {
+    border-color: #ff6262; 
+    border-width: 1px; 
+    margin: 20px 0; 
+}
+
+.BoarU {
+    font-size: 17px;
+    font-weight: bold;
+}
+.flex4 {
+    display: flex;
+}
+
+.InFirst{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InBred{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex5 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InSecond{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InDue{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex6 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InThird{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InFarr{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex7 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InAlive{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InMK{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InSB{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InMFFD{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.LitterS {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.flex8 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InTotalLS{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InAveLS{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex9 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.InDateW{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.InTotalKW{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* FLEX10 class */
+.InNoW{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 40px;
+    height: 25px;
+}
+
+.InTotalW{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.InAveW{
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+
+.response {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    margin-right: 0 auto;
+    justify-content: flex-end;
+}
+
+.save {
+    height:40px;
+    width: 100px;
+}
+
+.cancel {
+    height:40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SOW PERFORMANCE</title>
+</head>
+<body>
+
+    
+    <div class="sidebar">
+        <h2><i class='far fa-user-circle' style='font-size:98px;color:rgb(255, 255, 255);'></i><br><br>USER</h2>
+        <ul>
+            <li><a href="./Home.html"><i class='fas fa-desktop'></i> DASHBOARD</a></li>
+            <li><a href="./ManagePigs.html"><i class='fas fa-folder-open'></i> MANAGE PIGS</a></li>
+            <li><a href="./set-schedule.html"><i class='fas fa-calendar-alt'></i> SET SCHEDULE</a></li>
+            <li><a href="./DataEntry.html"><i class='fas fa-folder-plus'></i> DATA ENTRY</a></li>
+        </ul>
+
+        <button id="myButton">Logout</button>
+
+    </div>  
+
+    <div class = "title">
+        <h2>Sow Performance</h2>
+    </div>
+    <div class="sowPer-container">
+        <form>
+            <div class = "flex1">
+                <label for="SowNo" class = "LSowNo">Sow no.:</label>
+                <input type="text" class = "InSowNo" id="SowNo" name="SowNo"><br><br>
+
+                <label for="dam" class = "LDam">Dam:</label>
+                <input type="text" class = "InDam" id="dam" name="dam"><br><br>
+
+                <label for="parity" class = "LParity">Parity:</label>
+                <input type="text" class = "InParity" id="parity" name="parity"><br><br>
+            </div>
+            
+            
+            
+
+            <div class = "flex2">
+                <label for="DOB" class= "LDOB">DOB:</label>
+                <input type="text" class= "InDOB" id="DOB" name="DOB"><br><br>
+
+                <label for="sire" class= "LSire">Sire:</label>
+                <input type="text" class= "InSire" id="sire" name="sire"><br><br>
+            </div>
+            
+
+            <div class = "flex3">
+                <label for="class" class= "LClass">Class:</label>
+                <input type="text" class= "InClass" id="class" name="class"><br><br>
+            </div>
+
+            
+            <hr class="separator">
+
+            <p class = "BoarU">Boar Used</p>
+
+            <div class = "flex4">
+                <label for="first" class= "LFirst">1st:</label>
+                <input type="text" class= "InFirst" id="first" name="first"><br><br>
+
+                <label for="bred" class= "LBred">Date Bred:</label>
+                <input type="text" class= "InBred" id="bred" name="bred"><br><br>
+            </div>
+
+            <div class = "flex5">
+                <label for="second" class= "LSecond">2nd:</label>
+                <input type="text" class= "InSecond" id="second" name="second"><br><br>
+
+                <label for="due" class= "LDue">Date Due:</label>
+                <input type="text" class= "InDue" id="due" name="due"><br><br>
+            </div>
+
+            <div class = "flex6">
+                <label for="third" class= "LThird">3rd:</label>
+                <input type="text" class= "InThird" id="third" name="third"><br><br>
+
+                <label for="farr" class= "LFarr">Date Farr:</label>
+                <input type="text" class= "InFarr" id="farr" name="farr"><br><br>
+            </div>
+
+            <p class = "LitterS">Litter Size</p>
+            <div class = "flex7">
+                <label for="alive" class= "LAlive">Alive:</label>
+                <input type="text" class= "InAlive" id="alive" name="alive"><br><br>
+
+                <label for="mk" class= "LMK">MK:</label>
+                <input type="text" class= "InMK" id="mk" name="mk"><br><br>
+
+                <label for="SB" class= "LSB">SB:</label>
+                <input type="text" class= "InSB" id="SB" name="SB"><br><br>
+
+                <label for="mffd" class= "LMFFD">MFFD:</label>
+                <input type="text" class= "InMFFD" id="mffd" name="mffd"><br><br>
+            </div>
+
+            <div class = "flex8">
+                <label for="totalLS" class= "LTotalLS">Total Litter Size:</label>
+                <input type="text" class= "InTotalLS" id="totalLS" name="totalLS"><br><br>
+
+                <label for="aveLS" class= "LAveLS">Ave Litter Size:</label>
+                <input type="text" class= "InAveLS" id="aveLS" name="aveLS"><br><br>
+            </div>
+
+            <div class = "flex9">
+                <label for="dateW" class= "LDateW">Date Weaned:</label>
+                <input type="text" class= "InDateW" id="dateW" name="dateW"><br><br>
+
+                <label for="totalKW" class= "LTotalKW">Total Kilo Weaned:</label>
+                <input type="text" class= "InTotalKW" id="totalKW" name="totalKW"><br><br>
+            </div>
+
+            <div class = "flex10">
+                <label for="noW" class= "LNoW">No. Weaned:</label>
+                <input type="text" class= "InNoW" id="noW" name="noW"><br><br>
+
+                <label for="totalW" class= "LTotalW">Total Weaned:</label>
+                <input type="text" class= "InTotalW" id="totalW" name="totalW"><br><br>
+
+                <label for="aveW" class= "LAveW">Ave Weaned:</label>
+                <input type="text" class= "InAveW" id="totalKW" name="aveW"><br><br>
+            </div>
+
+            <div class = "response">
+                <input type="submit" class = "save" value="save">
+                <input type="button" class = "cancel" value="cancel">
+            </div>
+
+        </form>
+    </div>
+    
+
+</body>
+</html>

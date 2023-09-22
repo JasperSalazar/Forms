@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Mortality Rate</title>
+</head>
+<body>
+
+    
+    <div class="sidebar">
+        <h2><i class='far fa-user-circle' style='font-size:98px;color:rgb(255, 255, 255);'></i><br><br>USER</h2>
+        <ul>
+            <li><a href="./Home.html"><i class='fas fa-desktop'></i> DASHBOARD</a></li>
+            <li><a href="./ManagePigs.html"><i class='fas fa-folder-open'></i> MANAGE PIGS</a></li>
+            <li><a href="./set-schedule.html"><i class='fas fa-calendar-alt'></i> SET SCHEDULE</a></li>
+            <li><a href="./DataEntry.html"><i class='fas fa-folder-plus'></i> DATA ENTRY</a></li>
+        </ul>
+
+        <button id="myButton">Logout</button>
+
+    </div>  
+
+    <div class = "title">
+        <h2>Mortality Rate</h2>
+    </div>
+    <div class="mortality-container">
+        <form>
+            
+            <div class = "flex1">
+
+                <label for="pigID" class= "LPigID">Pig ID:</label>
+                <input type="text" class= "InPigID" id="pigID" name="pigID"><br><br>
+
+                <label for="date" class= "LDate">Date:</label>
+                <input type="text" class= "InDate" id="date" name="date"><br><br>
+            </div>
+
+            <div class = "flex2">
+
+                <label for="class" class= "LClass">Class:</label>
+                <input type="text" class= "InClass" id="class" name="class"><br><br>
+
+                <label for="dob" class= "LDOB">DOB:</label>
+                <input type="text" class= "InDOB" id="dob" name="dob"><br><br>
+            </div>
+
+            <div class = "flex3">
+
+                <label for="dam" class= "LDam">DAM:</label>
+                <input type="text" class= "InDam" id="dam" name="dam"><br><br>
+
+                <label for="cause" class= "LCause">Cause:</label>
+                <input type="text" class= "InCause" id="cause" name="cause"><br><br>
+            </div>
+
+            <div class = "flex4">
+
+                <label for="sire" class= "LSire">SIRE:</label>
+                <input type="text" class= "InSire" id="sire" name="sire"><br><br>
+
+                <label for="location" class= "LLocation">Location:</label>
+                <input type="text" class= "InLocation" id="location" name="location"><br><br>
+
+                <label for="remarks" class= "LRemarks">Remarks:</label>
+                <input type="text" class= "InRemarks" id="remarks" name="remarks"><br><br>
+            </div>
+
+
+            
+            
+
+            
+            <hr class="separator">
+
+            <div class = "flex5">
+                <label for="repBY" class= "LRepBy">Reported By:</label>
+                <input type="text" class= "InRepBy" id="repBy" name="repBy"><br><br>
+
+                <label for="verifBy" class= "LVerifBy">Verified By:</label>
+                <input type="text" class= "InVerifBy" id="verifBy" name="verifBy"><br><br>
+
+            </div>
+           
+            <div class = "response">
+                <input type="submit" class = "save" value="save">
+                <input type="button" class = "cancel" value="cancel">
+            </div>
+
+        </form>
+    </div>
+    
+
+</body>
+</html>
